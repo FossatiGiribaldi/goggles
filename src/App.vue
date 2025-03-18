@@ -1,0 +1,35 @@
+<template>
+  <div id="app">
+
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+
+  </div>
+</template>
+
+
+<script>
+import axios from 'axios';
+
+export default {
+  data() {
+    return {
+
+    }
+  },
+  mounted() {
+
+
+
+    // axios('',)
+    //   .then(res => {
+    //     console.log(res);
+    //   })
+  }
+}
+</script>
+
+<style lang="scss">
+#app {
+  font-size: 2em;
+}
+</style>
