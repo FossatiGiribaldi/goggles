@@ -1,7 +1,8 @@
 <template>
   <div id="app">
 
-  Lorem, ipsum dolor
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum doloribus praesentium tempora sint? Non aut, natus
+    sequi iure inventore iste dolorum ab modi voluptate quaerat ea, neque harum earum asperiores.
 
   </div>
 </template>
@@ -9,6 +10,7 @@
 
 <script>
 import axios from 'axios';
+
 
 export default {
   data() {
@@ -19,11 +21,11 @@ export default {
   mounted() {
 
 
+    axios('/doodle/result.json').then(res => {
+      console.log(res);
+    })
 
-    axios('../doodle/result.json')
-      .then(res => {
-        console.log(res);
-      })
+
   }
 }
 </script>
