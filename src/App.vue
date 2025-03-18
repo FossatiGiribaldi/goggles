@@ -20,10 +20,10 @@ export default {
 
 
 
-    // axios('',)
-    //   .then(res => {
-    //     console.log(res);
-    //   })
+    axios('/doodle/result.json')
+      .then(res => {
+        console.log(res);
+      })
   }
 }
 </script>
