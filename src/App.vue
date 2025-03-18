@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsa et nemo error numquam, assumenda atque ex vitae, dolorem praesentium quo unde veniam, perferendis fugit. A sint porro quae. Iusto.
+  Lorem ipsum dolor
 
   </div>
 </template>
@@ -20,7 +20,7 @@ export default {
 
 
 
-    axios('../doodle/result.json')
+    axios('/doodle/result.json')
       .then(res => {
         console.log(res);
       })
