@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda delectus tempora sed beatae, voluptate, iure id sapiente consequatur obcaecati officia cupiditate eos vitae dolorum modi vel voluptatum totam doloremque error.
 
   </div>
 </template>
