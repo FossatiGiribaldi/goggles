@@ -20,7 +20,7 @@ export default {
 
 
 
-    axios('/doodle/result.json')
+    axios('/goggles/doodle/result.json')
       .then(res => {
         console.log(res);
       })
